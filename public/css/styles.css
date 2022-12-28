@@ -2,6 +2,10 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+/*=======================
+ Navbar
+=======================*/
 .navbar {
     padding: 20px;
     border: 0;
@@ -10,14 +14,24 @@
     font-size: 12px;
     letter-spacing: 1px;
 }
+
+/*=======================
+ Navbar content 
+=======================*/
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
 
+/*=======================
+ footer padding
+=======================*/
 .footer-padding {
 	padding-bottom: 60px;
 }
 
+/*=======================
+ footer 
+=======================*/
 .footer {
 	position: fixed;
 	text-align: center;
@@ -27,12 +41,18 @@
 	background-color: #eee;
 }
 
+/*=======================
+ footer content
+=======================*/
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
   color: #332d2d;
 }
 
+/*=======================
+ blogs page
+=======================*/
 .blogpost
 {
   margin: 1.5%;
@@ -50,7 +70,7 @@ body{
 }
 
 /*=======================
-adding style to about-1 
+ about-1 - about us card 
 =======================*/
 
 .about-1{
@@ -73,7 +93,7 @@ adding style to about-1
 }
 
 /*===========================
-adding style to about items 
+about items - mission, achievements, contact us card
 ============================*/
 
 .about-item{
@@ -94,7 +114,7 @@ adding style to the icons(book,globe,pencil)
 }
 
 /*======================================
-adding style to h3(heading 3) of each item 
+adding style to h3(heading 3) of each card
 =========================================*/
 .about-item h3{
   font-size: 25px;
@@ -114,7 +134,7 @@ styling the hr (the blue line in between)
 }
 
 /*========================================
-hover means when you put your cursor over it
+hover over cards
 =========================================*/
 .about-item:hover{
   background-color: #112734;
@@ -140,10 +160,3 @@ translate Y: move along the Y axis, negative(-20) moves it up, while positive(20
   transition: all 400ms ease-in-out;
 }
 
-footer{
-  background: #212226;
-  padding: 20px;
-}
-footer p{
-  color: #fff;
-}
